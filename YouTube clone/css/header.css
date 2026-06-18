@@ -1,0 +1,219 @@
+.header{
+    height: 80px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+    background-color: white;
+    border-bottom-width:1px;
+    border-bottom-color:rgb(233, 233, 233);
+    border-bottom-style:solid; 
+    z-index: 100;
+}
+.left{
+    
+    display:flex;
+    align-items: center;
+}
+.hamburg{
+    height:32px;
+    margin-right:33px;
+    margin-left:34px;
+    cursor: pointer;
+}
+.logo{
+    height:28px;
+    cursor: pointer;
+}
+.middle{
+    flex:1;
+    margin-left:70px;
+    margin-right:35px;
+    max-width: 600px;
+    display:flex;
+    align-items: center;
+}
+.search-bar{
+    display:flex 1;
+    height:50px;
+    width: 500px;
+    padding-left:15px;
+    border-radius: 2px;
+    border-color: gray;
+    border-style: solid;
+    border-width:1px;
+    font-size:20px;
+    border-color: rgb(216, 215, 215);
+    box-shadow:inset 1px 2px  5px rgba(0, 0 , 0 ,0.05);
+}
+.search-bar::placeholder{
+    font-size:20px;
+}
+.search-button{
+    height:54px;
+    border-width: 1px;
+    width:80px;
+    margin-left:-1px;
+    border-color: rgb(216, 215, 215);
+    cursor: pointer;
+    margin-right:14px;
+    border-radius: 2px;
+    border-style: solid;
+    background-color: rgb(245, 244, 244);
+    position:relative;
+}
+.search-button .tooltip{
+position: absolute;
+background-color: rgb(102, 101, 101);
+color:white;
+padding: 8px 10px 8px 10px;
+font-size:16px;
+border-radius:2px;
+bottom:-50px;
+left:0px;
+opacity: 0;
+transition:  opacity 0.15s;
+}
+.search-button:hover .tooltip{
+    opacity: 0.9;
+}
+
+.search-icon{
+    height:30px;
+    margin-top:5px;
+}
+.voice-button{
+    display:flex;
+    justify-content: center;
+    height:54px;
+    border:none;
+    width:60px;
+    border-radius:30px;
+    cursor: pointer;
+    background-color: rgb(245, 244, 244);
+    position: relative;
+    align-items: center;
+}
+.voice-button .tooltip{
+
+position: absolute;
+background-color: rgb(102, 101, 101);
+color:white;
+padding: 8px 10px 8px 10px;
+font-size:16px;
+border-radius:2px;
+opacity: 0;
+transition:  opacity 0.15s;
+white-space: nowrap;
+bottom:-50px;
+
+}
+.voice-button:hover .tooltip{
+    opacity: 0.9;
+}
+.voice-icon{
+    height:32px;
+}
+.right{
+    width:230px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right:30px;
+    flex-shrink: 0;
+}
+.create-icon{
+    height:34px;
+    cursor: pointer;
+    position:relative;
+    
+}
+.icons{
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.icons .tooltip{
+position: absolute;
+background-color: rgb(102, 101, 101);
+color:white;
+padding: 8px 10px 8px 10px;
+font-size:16px;
+border-radius:2px;
+bottom:-50px;
+opacity: 0;
+transition:  opacity 0.15s;
+}
+.icons:hover .tooltip{
+    opacity: 0.9;
+}
+.apps{
+    height:34px;
+    cursor: pointer;
+}
+.ytapp{
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.ytapp .tooltip{
+    position: absolute;
+background-color: rgb(102, 101, 101);
+color:white;
+padding: 8px 10px 8px 10px;
+font-size:16px;
+border-radius:2px;
+bottom:-50px;
+opacity: 0;
+transition:  opacity 0.15s;
+white-space: nowrap;
+}
+.ytapp:hover .tooltip{
+    opacity:0.9;
+}
+.notifications{
+    height:34px;
+    cursor: pointer;
+}
+.notification-bell{
+    position:relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.notification-bell .tooltip{
+    position: absolute;
+background-color: rgb(102, 101, 101);
+color:white;
+padding: 8px 10px 8px 10px;
+font-size:16px;
+border-radius:2px;
+bottom:-50px;
+opacity: 0;
+transition:  opacity 0.15s;
+}
+.notification-bell:hover .tooltip{
+    opacity:0.9;
+}
+.notification-no{
+    position: absolute;
+    top:0px;
+    right:0px;
+    background-color:rgb(235, 1, 1);
+    color:white;
+    border-radius: 100px;
+    padding: 1px 5px 1px 5px;
+    cursor: pointer;
+    font-size:13px;
+}
+.mychannel{
+    height:38px;
+    border-radius: 19px;
+    cursor: pointer;
+}
